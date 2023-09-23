@@ -1,8 +1,14 @@
+import Banner from "../Banner/Banner";
+import Category from "../Catageory/Category";
+import PopularMenu from "../PopularMenu/PopularMenu";
+
 
 const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
+           <Banner/>
+           <Category/>
+           <PopularMenu/>
         </div>
     );
 };
